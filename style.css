@@ -1,0 +1,339 @@
+.marquee
+{
+    position:fixed;
+    bottom: 0;
+    background-color:rgb(194, 11, 11) ;
+    color:white;
+    height:40px;
+    width:100%;
+    direction: left;
+}
+
+.main
+{
+    background-color:rgb(53, 50, 50);
+    height: 2000px;
+}
+.main1
+{
+    height: 150px;
+    margin: 0 auto;
+    max-width: 80%;
+
+    display:flex;
+    flex-direction: column;
+}
+.main1 img
+{
+    height:150px;
+    flex:1;
+    max-width: 250px;
+    display: inline-block;
+}
+
+
+
+
+
+.main1 .subclass1
+{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    max-width: 50%;
+    background-color:black;
+    border-radius:10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.subclass1 input
+{
+    flex: 2;
+    border-radius: 10px;
+    border-color:black; 
+}
+
+.subclass1 .login
+{
+    flex: 1;
+    margin-left: 10px;
+    padding:10px 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+}
+.subclass1 span
+{
+    flex:1;
+    color:rgb(165, 161, 161);
+    font-size: 13px;
+}
+
+
+
+
+.subclass1 span a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.subclass1 a:hover
+{
+    color:rgb(165, 161, 161);
+    text-decoration: none;
+}
+
+.subclass1 .password
+{
+    color:white;
+    float: right;
+    margin-right: 135px;
+}
+.subclass1 .password:hover
+{
+    color: rgb(165, 161, 161);
+    
+}
+
+
+.main1 .home
+{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+
+.home a
+{
+    flex:1;
+    color:red;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.home a:hover
+{
+    color:rgb(146, 43, 43);
+}
+
+.home .contact
+{
+    color: white;
+}
+
+.home .contact:hover
+{
+    color:red;
+}
+
+
+
+.subclass2
+{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    height:400px;
+    max-width:80%;
+    margin:0px auto;
+
+}
+.subclass2 img
+{
+    flex:2;
+    height:400px;
+    max-width: 70%;
+}
+.subclass2 .seekers
+{
+    flex:1;
+    background-color: rgb(221, 28, 28);
+    max-width:30% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.subclass2 .seekers h1
+{
+    color:white;
+    margin-bottom: 0px;
+    margin-left:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30;
+    flex:1;
+}
+.subclass2 .seekers h4
+{
+    flex:1;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color:white;
+    font-size: 20;
+    margin-bottom: 5px;
+    font-style: Arial;
+    flex:1;
+}
+
+.subclass2 .seekers .input1
+{
+    flex:1;
+    margin-left: 15px;
+    background-color: white;
+    color:black;
+    font-style: Arial;
+    padding:2px 0px 2px 0px;
+    font-size: 15;
+    max-width: 200px;
+}
+.subclass2 .seekers .search
+{
+    flex:1;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 0px;
+    max-width: 100px;
+    padding:7px;
+    margin-left: 20px;
+    color:rgb(82, 70, 70);
+    font-family: Arial;
+}
+.subclass2 .seekers .submit
+{
+    flex:1;
+    margin-left: 20px;
+    max-width:150px;
+    Padding:7px;
+    background-color:red;
+    color:white;
+    font-size: 15;
+    border-color: white;
+}
+.newuser
+{
+    flex:1;
+    background-color: rgb(180, 14, 14);
+    max-width:80%;
+    height:40px;
+    border-style:outset;
+    border-width: 5px;
+    border-color: rgb(180, 14, 14); 
+    margin: 0 auto;
+}
+
+
+.newuser span
+{
+    color:white;
+}
+.newuser a
+{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-size: 17;
+}
+.newuser .donor
+{
+    float:right;
+    margin-right: 25px;
+}
+.newuser a:hover
+{
+    color:rgb(20, 17, 17);
+}
+
+
+
+
+
+
+.main .subclass3
+{
+    max-width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: rgb(209, 206, 206);
+}
+.subclass3 .request
+{
+    flex:1;
+    background-color:  rgb(209, 206, 206);
+}
+.request h2
+{
+    color: rgb(168, 26, 26);
+    font-size: 18;
+    padding-top: 10px;
+}
+.request .names li
+{
+    font-size: 14;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+}
+.request .names p
+{
+    float: right;
+    color:rgb(177, 61, 61);
+    margin-right: 20px;
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif
+}
+.request .names p:hover
+{
+    border-bottom: 1px solid;
+}
+
+
+.main .subclass3 .block
+{
+    flex:3;
+    background-color:  rgb(209, 206, 206);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.block .about
+{  
+    flex:1;
+    height: 600px;
+    background-color:white;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+.about .img1
+{
+    margin:20px;
+    display: inline-block;
+    float:left;
+}
+.about .img2
+{
+    float: right;
+    width:10%;
+    margin:20px;
+    display: inline-block;
+}
+
+.about h2
+{
+    margin:25px 0px 0px 0px;
+    font-size: 20; 
+}
+.about p
+{
+    font-size: 15px;
+    color:grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2px;
+}
+.about a
+{
+    text-decoration: none;
+    color:brown;
+}
